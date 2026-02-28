@@ -1,0 +1,28 @@
+# Built apps (Electron / macOS)
+*.app
+out/
+release/
+dist/
+build/
+
+# OS
+.DS_Store
+
+# Dependencies
+node_modules/
+Chat Agent.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+desktop/dist/mac-arm64/Chat Agent.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+desktop/node_modules/electron/dist/Electron.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+
+# Python backend
+backend/venv/
+**/__pycache__/
+*.pyc
+
+# Backend/generated data and indexes
+data/
+index_data/
+backend.zip
+
+# Desktop app dependencies
+desktop/node_modules/
