@@ -1,4 +1,4 @@
-# Chat Agent (local-only)
+# Chat Agent (Private PDF Reader)
 
 Desktop-style app to chat with your PDF documents. **Runs fully offline** after setup: no API keys, no external inference or embeddings.
 
